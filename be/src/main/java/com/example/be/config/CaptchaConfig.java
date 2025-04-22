@@ -9,15 +9,15 @@ import java.awt.*;
 @Getter
 @Setter
 public final class CaptchaConfig {
-    private int width = 160;
+    private int width = 120;
 
-    private int height = 60;
+    private int height = 40;
 
-    private int length = 6;
+    private int length = 5;
 
-    private int noise = 15;
+    private int noise = 40;
 
-    private boolean dark = false;
+    private boolean dark = true;
 
     private Color[] lightPalette = {Color.BLACK, Color.DARK_GRAY, Color.BLUE, Color.GREEN, Color.RED};
 
