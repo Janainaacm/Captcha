@@ -9,11 +9,11 @@ import java.awt.*;
 @Getter
 @Setter
 public final class CaptchaConfig {
-    private int width = 120;
+    private int width = 160;
 
-    private int height = 40;
+    private int height = 60;
 
-    private int length = 5;
+    private int length = 6;
 
     private int noise = 15;
 
